@@ -1,0 +1,18 @@
+.carDetailWrapper {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2rem;
+}
+.carImgContainer {
+  flex: 50%;
+}
+.carImage {
+  width: 80%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.carDetails {
+  flex: 50%;
+}

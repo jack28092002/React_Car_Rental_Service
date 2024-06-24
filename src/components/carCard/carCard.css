@@ -1,0 +1,40 @@
+.carCardWrapper {
+  flex: 20%;
+}
+.carImage {
+  width: 100%;
+  height: 10rem;
+  object-fit: contain;
+}
+.carTitle {
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.detailsContainer {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  max-height: 2rem;
+  align-items: center;
+}
+.carPrice {
+  font-size: 0.7rem;
+}
+.detailsButton {
+  border: none;
+  padding: 0.4rem 1rem;
+  font-size: 0.6rem;
+  border-radius: 5rem;
+  text-transform: uppercase;
+  background-color: black;
+  & > a {
+    text-decoration: none;
+    color: white;
+  }
+  &:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+  }
+}

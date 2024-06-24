@@ -1,0 +1,70 @@
+.sliderWrapper {
+  height: 80vh;
+  position: relative;
+  overflow-x: hidden;
+}
+.container {
+  width: 300vw;
+  height: 100%;
+  display: flex;
+  transition: all 1s ease;
+}
+.sliderImg {
+  width: 100vw;
+  height: 100%;
+  object-fit: fill;
+}
+.icons {
+  width: fit-content;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  gap: 10px;
+  margin: auto;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.sliderContent {
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  background: linear-gradient(to right, black, transparent);
+  /* padding: 5rem; */
+  height: 80vh;
+  width: 50%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  bottom: 5rem;
+  left: 2rem;
+}
+
+.titleButton {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  border: none;
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 5rem;
+  text-transform: uppercase;
+  background-color: white;
+  & > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+}
